@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /bak
+Options FollowSymLinks
+#zawsze www.adwokat-chronska.pl
+RewriteRule ^(.*)$ http://www.adwokat-chronska.pl/$1 [R=301,L]

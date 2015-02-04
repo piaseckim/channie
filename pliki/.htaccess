@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /pliki
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* http://www.adwokat-chronska.pl/ [R=301,L]

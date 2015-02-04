@@ -1,10 +1,21 @@
 RewriteEngine On
+RewriteBase /
 Options FollowSymLinks
+#zawsze www.adwokat-chronska.pl
 RewriteCond %{HTTP_HOST} ^adwokat-chronska.pl$
 RewriteRule ^(.*)$ http://www.adwokat-chronska.pl/$1 [R=301,L]
+#zawsze www.adwokat-chronska.pl zamiast www.adwokat-chronska.pl/index.html
 RewriteCond %{THE_REQUEST} ^.*/index.html
 RewriteRule ^(.*)index.html$ http://www.adwokat-chronska.pl/$1 [R=301,L]
-RewriteCond %{THE_REQUEST} ^.*/index.htm
-RewriteRule ^(.*)index.html$ http://www.adwokat-chronska.pl/$1 [R=301,L]
-RewriteCond %{THE_REQUEST} ^.*/index.php
-RewriteRule ^(.*)index.php$ http://www.adwokat-chronska.pl/$1 [R=301,L]
+#plik i katalog z podanego url'a nie istnieja - wynocha na glowna
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* http://www.adwokat-chronska.pl/ [R=301,L]
+#zawsze do bak'a tez bez dostepu - redir na glowna
+#RewriteCond %{THE_REQUEST} ^.*/bak
+#RewriteRule ^(.*)index.html$ http://www.adwokat-chronska.pl/$1 [R=301,L]
+#zawsze do new tez bez dostepu - redir na glowna
+#RewriteCond %{THE_REQUEST} ^.*/bak
+#RewriteRule ^(.*)index.html$ http://www.adwokat-chronska.pl/$1 [R=301,L]
+#RewriteCond %{THE_REQUEST} ^.*/pliki
+#RewriteRule ^(.*)index.html$ http://www.adwokat-chronska.pl/$1 [R=301,L]
