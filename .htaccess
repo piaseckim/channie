@@ -1,0 +1,4 @@
+RewriteEngine On
+Options FollowSymLinks
+RewriteCond %{HTTP_HOST} ^adwokat-chronska.pl$
+RewriteRule ^(.*)$ http://www.adwokat-chronska.pl/$1 [R=301,L]
