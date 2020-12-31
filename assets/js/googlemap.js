@@ -1,4 +1,6 @@
 // Create the script tag, set the appropriate attributes
+//DOCS: https://developers.google.com/maps/documentation/javascript/examples/map-coordinates
+//https://developers.google.com/maps/documentation/javascript/maptypes#ImageMapTypes
 var script = document.createElement('script');
 script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCbUvHh83fdrPQTJGwlgjwcUt7cnr8aoWE&callback=initMap';
 script.defer = true;
@@ -12,10 +14,7 @@ window.initMap = function() {
         center: myPosition,
         zoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        mapTypeControl: true,
-        mapTypeControlOptions: {
-            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
-        },
+        mapTypeControl: false,
         navigationControl: true,
         navigationControlOptions: {
             style: google.maps.NavigationControlStyle.SMALL

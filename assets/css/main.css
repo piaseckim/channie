@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Custom */
+#map {
+	min-height: 30em;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -160,11 +165,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #c4c4dd !important;
 		}
 
 		a:active {
-			color: #53e3fb !important;
+			color: #53affb !important;
 		}
 
 	strong, b {
@@ -2520,8 +2525,8 @@ input, select, textarea {
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
+			box-shadow: inset 0 0 0 2px#c4c4dd;
+			color: #c4c4dd;
 		}
 
 		input[type="submit"]:active,
@@ -2530,8 +2535,8 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(155, 241, 255, 0.1);
-			box-shadow: inset 0 0 0 2px #53e3fb;
-			color: #53e3fb;
+			box-shadow: inset 0 0 0 2px#c4c4dd;
+			color: #c4c4dd;
 		}
 
 		input[type="submit"].icon:before,
@@ -2664,7 +2669,7 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:hover,
 			.button.primary:active {
-				background-color: #9bf1ff;
+				background-color: #c4c4dd;
 				color: #242943 !important;
 			}
 
@@ -2673,7 +2678,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #53e3fb;
+				background-color:#c4c4dd;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
