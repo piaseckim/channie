@@ -77,6 +77,30 @@ input, select, textarea {
 	min-height: 30em;
 }
 
+/* Cookies */
+.cookies_wrapper {
+	display: none;
+    position: fixed;
+    background-color: rgba(17, 21, 37, 0.95);
+	padding: 1em 1em 1em 1em; 
+	margin: 1em;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	z-index: 10000;
+	bottom: 1em;
+	right: 1em;
+}
+
+.cookies_wrapper p {
+	margin: 0.2em;
+}
+
+.cookies_wrapper button {
+	float: right;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -120,7 +144,7 @@ input, select, textarea {
 
 /* Type */
 
-	body, input, select, textarea {
+	body, input, select, textarea  {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
