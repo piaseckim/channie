@@ -78,6 +78,11 @@ input, select, textarea {
 	min-height: 30em;
 }
 
+.darken img {
+	filter: brightness(100%);
+    opacity: 0.75;
+}
+
 /* Cookies */
 .cookies_wrapper {
 	display: none;
