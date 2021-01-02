@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,300italic,600,600italic");
 
 /*
 	Forty by HTML5 UP
@@ -84,7 +85,7 @@ input, select, textarea {
     background-color: rgba(17, 21, 37, 0.95);
 	padding: 1em 1em 1em 1em; 
 	margin: 1em;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Dosis", "Source Sans Pro", Helvetica, sans-serif;
 	z-index: 10000;
 	bottom: 1em;
 	right: 1em;
@@ -96,7 +97,7 @@ input, select, textarea {
 
 .cookies_wrapper button {
 	float: right;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Dosis", "Source Sans Pro", Helvetica, sans-serif;
 }
 
 
@@ -146,7 +147,7 @@ input, select, textarea {
 
 	body, input, select, textarea  {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Dosis", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -199,6 +200,10 @@ input, select, textarea {
 	strong, b {
 		color: #ffffff;
 		font-weight: 600;
+	}
+
+	.fm-130percent {
+		font-size: 130%;
 	}
 
 	em, i {
