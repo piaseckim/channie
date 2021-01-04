@@ -4,6 +4,7 @@
 var script = document.createElement('script');
 script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCbUvHh83fdrPQTJGwlgjwcUt7cnr8aoWE&callback=initMap';
 script.defer = true;
+script.async = true;
 
 // Attach your callback function to the `window` object
 window.initMap = function() {
