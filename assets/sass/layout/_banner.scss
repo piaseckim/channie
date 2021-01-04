@@ -11,7 +11,7 @@
 		@include vendor('background-image', 'url("../../images/banner.webp")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
-		background-attachment: fixed;
+		// background-attachment: fixed // iPad pro retina fix;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;

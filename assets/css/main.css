@@ -3408,7 +3408,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		padding: 6em 0 2em 0 ;
-		background-attachment: fixed;
+		/* background-attachment: fixed; iPad pro retina fix */
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
