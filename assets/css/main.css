@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600");
-@import url("https://fonts.googleapis.com/css2?family=Dosis:ital,wght@0,300;0,600;1,300;1,600");
+/* @import url("https://fonts.googleapis.com/css2?family=Dosis:ital,wght@0,300;0,600;1,300;1,600"); */
 
 /*
 	Forty by HTML5 UP
@@ -90,7 +90,7 @@ input, select, textarea {
     background-color: rgba(17, 21, 37, 0.95);
 	padding: 1em 1em 1em 1em; 
 	margin: 1em;
-	font-family: "Dosis", "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	z-index: 10000;
 	bottom: 1em;
 	right: 1em;
@@ -102,7 +102,7 @@ input, select, textarea {
 
 .cookies_wrapper button {
 	float: right;
-	font-family: "Dosis", "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 
@@ -152,7 +152,7 @@ input, select, textarea {
 
 	body, input, select, textarea  {
 		color: #ffffff;
-		font-family: "Dosis", "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -223,7 +223,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.65;
-		margin: 0 0 1em 0;
+		margin: 0 0 0 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3402,7 +3402,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.webp");
+		background-image: url("../../images/banner-v02.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
