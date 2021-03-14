@@ -1,7 +1,5 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600");
-/* @import url("https://fonts.googleapis.com/css2?family=Dosis:ital,wght@0,300;0,600;1,300;1,600"); */
-
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -88,7 +86,7 @@ input, select, textarea {
 	display: none;
     position: fixed;
     background-color: rgba(17, 21, 37, 0.95);
-	padding: 1em 1em 1em 1em; 
+	padding: 1em 1em 1em 1em;
 	margin: 1em;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	z-index: 10000;
@@ -3402,7 +3400,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner-v02.jpg");
+		background-image: url("../../images/banner.webp");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3506,6 +3504,7 @@ input, select, textarea {
 			height: 90vh;
 			min-height: 30em;
 			max-height: 50em;
+			border-bottom: 200px !important;
 		}
 
 			#banner.major.alt {
