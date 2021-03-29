@@ -1,5 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -88,7 +90,7 @@ input, select, textarea {
     background-color: rgba(17, 21, 37, 0.95);
 	padding: 1em 1em 1em 1em;
 	margin: 1em;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
 	z-index: 10000;
 	bottom: 1em;
 	right: 1em;
@@ -100,7 +102,7 @@ input, select, textarea {
 
 .cookies_wrapper button {
 	float: right;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
 }
 
 
@@ -150,7 +152,7 @@ input, select, textarea {
 
 	body, input, select, textarea  {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
