@@ -91,7 +91,7 @@ input, select, textarea {
 	padding: 1em 1em 1em 1em;
 	margin: 1em;
 	font-family: "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
-	z-index: 10000;
+	z-index: 20000;
 	bottom: 1em;
 	right: 1em;
 }
