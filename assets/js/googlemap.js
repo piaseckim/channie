@@ -9,7 +9,7 @@ script.async = true;
 // Attach your callback function to the `window` object
 window.initMap = function() {
     // JS API is loaded and available
-    const myPosition = new google.maps.LatLng(52.236647, 21.010236);
+    const myPosition = new google.maps.LatLng(52.277674, 20.989286);
 
     const map = new google.maps.Map(document.getElementById("map"), {
         center: myPosition,
